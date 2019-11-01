@@ -66,7 +66,7 @@ const FloatingLabel =
       );
     }
 
-    FloatingLabel.prototype.componentDidMount = function componentDidMount () {      
+    FloatingLabel.prototype.componentDidMount = function componentDidMount () {
       this.setState({ flabelHeight: this.flabel.offsetHeight !== 0 ? this.flabel.offsetHeight : 22 });
     };
 
